@@ -14,7 +14,7 @@ TempoXLoc encodes LiDAR scans as bird’s-eye-view images and matches them to sa
 
 [Watch the 30-second MP4](assets/tempoxloc_bev_satellite.mp4) · [Static view](assets/tempoxloc_bev_satellite_poster.png)
 
-A two-minute driving segment is replayed at **4× speed**. The same LiDAR scans are projected with odometry-only poses (**blue**, left) and TempoXLoc poses (**cyan**, right) onto matching 128 m × 128 m local satellite views. White crosses and dashed trails show ground truth. This excerpt illustrates the effect of localization corrections; playback speed does not represent inference speed.
+A two-minute driving segment is replayed at **4× speed**. The same LiDAR scans are projected with odometry-only poses (**blue**, left) and TempoXLoc poses (**cyan**, right) onto matching 128 m × 128 m local satellite views. White crosses and dashed trails show ground truth. The rightmost panel plays the synchronized forward-facing camera recording for context; camera images are not used for localization. This excerpt illustrates the effect of localization corrections; playback speed does not represent inference speed.
 
 ## Recorded full route
 
